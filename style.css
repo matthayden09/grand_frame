@@ -8,6 +8,8 @@ body::before {
     .news-input {
       width: 50%;
     }
+
+    
 }
 
 .logo {
@@ -42,7 +44,13 @@ body::before {
 .title {
     /* font-family: 'Poiret One', cursive; */
     font-family: 'Times New Roman', Times, serif;
-    font-size: 40px;
+    font-size: 44px;
+}
+
+@media (max-width: 428px) {
+    .title {
+        font-size: 32px;
+    }
 }
 
 /* .title2 {
