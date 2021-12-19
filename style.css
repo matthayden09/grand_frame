@@ -42,11 +42,11 @@ body::before {
 .title {
     /* font-family: 'Poiret One', cursive; */
     font-family: 'Times New Roman', Times, serif;
-    font-size: 54px;
+    font-size: 48px;
 }
 
-.title2 {
+/* .title2 {
     font-size: 32px;
-}
+} */
 
 
