@@ -47,6 +47,15 @@ body::before {
     font-size: 44px;
 }
 
+.contact-heading {
+    margin-top: 10px;
+    font-size: 32px;
+}
+
+.bottom-text {
+    margin-bottom: 20px;
+}
+
 @media (max-width: 428px) {
     .title {
         font-size: 28px;
