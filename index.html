@@ -85,7 +85,7 @@
                                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                                 Iure, quas quidem possimus dolorum esse eligendi?
                             </p>
-                            <button class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#enroll">Read
+                            <button class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#frame">Read
                                 More</button>
                         </div>
                     </div>
@@ -101,7 +101,8 @@
                                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                                 Iure, quas quidem possimus dolorum esse eligendi?
                             </p>
-                            <a href="#" class="btn btn-dark">Read More</a>
+                            <button class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#print">Read
+                                More</button>
                         </div>
                     </div>
                 </div>
@@ -116,7 +117,8 @@
                                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                                 Iure, quas quidem possimus dolorum esse eligendi?
                             </p>
-                            <a href="#" class="btn btn-warning">Read More</a>
+                            <button class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#install">Read
+                                More</button>
                         </div>
                     </div>
                 </div>
@@ -442,12 +444,106 @@
         </div>
     </footer> -->
 
-    <!-- Modal -->
-    <div class="modal fade" id="enroll" tabindex="-1" aria-labelledby="enrollLabel" aria-hidden="true">
+    <!-- Framing Modal -->
+    <div class="modal fade" id="frame" tabindex="-1" aria-labelledby="enrollLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="enrollLabel">Custom Framing</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="lead">Let's take a look at some options</p>
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure est nesciunt et aliquid beatae dolores voluptatibus numquam, modi incidunt omnis. Commodi id dignissimos quasi beatae dolor iusto mollitia eveniet error.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure est nesciunt et aliquid beatae dolores voluptatibus numquam, modi incidunt omnis. Commodi id dignissimos quasi beatae dolor iusto mollitia eveniet error.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure est nesciunt et aliquid beatae dolores voluptatibus numquam, modi incidunt omnis. Commodi id dignissimos quasi beatae dolor iusto mollitia eveniet error.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure est nesciunt et aliquid beatae dolores voluptatibus numquam, modi incidunt omnis. Commodi id dignissimos quasi beatae dolor iusto mollitia eveniet error.</li>
+                    </ul>
+                    <!-- <form>
+                        <div class="mb-3">
+                            <label for="first-name" class="col-form-label">
+                                First Name:
+                            </label>
+                            <input type="text" class="form-control" id="first-name" />
+                        </div>
+                        <div class="mb-3">
+                            <label for="last-name" class="col-form-label">Last Name:</label>
+                            <input type="text" class="form-control" id="last-name" />
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="col-form-label">Email:</label>
+                            <input type="email" class="form-control" id="email" />
+                        </div>
+                        <div class="mb-3">
+                            <label for="phone" class="col-form-label">Phone:</label>
+                            <input type="tel" class="form-control" id="phone" />
+                        </div>
+                    </form> -->
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                        Close
+                    </button>
+                    <!-- <button type="button" class="btn btn-primary">Submit</button> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Printing Modal -->
+    <div class="modal fade" id="print" tabindex="-1" aria-labelledby="enrollLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="enrollLabel">Professional Printing</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="lead">Let's take a look at some options</p>
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure est nesciunt et aliquid beatae dolores voluptatibus numquam, modi incidunt omnis. Commodi id dignissimos quasi beatae dolor iusto mollitia eveniet error.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure est nesciunt et aliquid beatae dolores voluptatibus numquam, modi incidunt omnis. Commodi id dignissimos quasi beatae dolor iusto mollitia eveniet error.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure est nesciunt et aliquid beatae dolores voluptatibus numquam, modi incidunt omnis. Commodi id dignissimos quasi beatae dolor iusto mollitia eveniet error.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure est nesciunt et aliquid beatae dolores voluptatibus numquam, modi incidunt omnis. Commodi id dignissimos quasi beatae dolor iusto mollitia eveniet error.</li>
+                    </ul>
+                    <!-- <form>
+                        <div class="mb-3">
+                            <label for="first-name" class="col-form-label">
+                                First Name:
+                            </label>
+                            <input type="text" class="form-control" id="first-name" />
+                        </div>
+                        <div class="mb-3">
+                            <label for="last-name" class="col-form-label">Last Name:</label>
+                            <input type="text" class="form-control" id="last-name" />
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="col-form-label">Email:</label>
+                            <input type="email" class="form-control" id="email" />
+                        </div>
+                        <div class="mb-3">
+                            <label for="phone" class="col-form-label">Phone:</label>
+                            <input type="tel" class="form-control" id="phone" />
+                        </div>
+                    </form> -->
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                        Close
+                    </button>
+                    <!-- <button type="button" class="btn btn-primary">Submit</button> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Installation Modal -->
+    <div class="modal fade" id="install" tabindex="-1" aria-labelledby="enrollLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="enrollLabel">Installation</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
