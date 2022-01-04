@@ -8,8 +8,16 @@ body::before {
     .news-input {
       width: 50%;
     }
+}
 
-    
+body {
+    /* font-family: 'Times New Roman', Times, serif; */
+}
+
+.card {
+    -webkit-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+	-moz-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+	box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
 }
 
 .logo {
@@ -20,10 +28,6 @@ body::before {
 
 .heading {
     margin-top: 20px;
-}
-
-.showcase {
-    /* margin-top: 30px; */
 }
 
 .img-fluid {
@@ -47,6 +51,12 @@ body::before {
     font-size: 44px;
 }
 
+.main-video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .contact-heading {
     margin-top: 10px;
     font-size: 32px;
@@ -62,12 +72,5 @@ body::before {
     }
 }
 
-/* .ratio {
-    margin-bottom: 20px;
-} */
-
-/* .title2 {
-    font-size: 32px;
-} */
 
 

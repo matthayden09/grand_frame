@@ -1,0 +1,25 @@
+{
+  "name": "grand_frame",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matthayden09/grand_frame.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matthayden09/grand_frame/issues"
+  },
+  "homepage": "https://github.com/matthayden09/grand_frame#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "express": "^4.17.2",
+    "googleapis": "^92.0.0"
+  }
+}

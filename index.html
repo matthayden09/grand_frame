@@ -5,18 +5,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Catamaran&family=Fjalla+One&family=Poiret+One&display=swap"
-        rel="stylesheet">
-
     <link rel="stylesheet" href="style.css" />
+
     <title>Grand Frame Inc.</title>
 </head>
 
@@ -26,13 +20,7 @@
         <div class="container">
             <a href="#" class="navbar-brand">
                 <img class="logo" src="./img/logo_color.png" alt="">
-                <!-- <img class="logo" src="./img/grand_frame_logo.jpg" alt=""> -->
             </a>
-
-            <!-- <div>
-                <a href="">209 S. Arlington Heights Rd.
-                    Arlington Heights, IL 60005</a>
-            </div> -->
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
                 <span class="navbar-toggler-icon"></span>
@@ -41,7 +29,7 @@
             <div class="collapse navbar-collapse" id="navmenu">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a href="#learn" class="nav-link">What We Offer</a>
+                        <a href="#services" class="nav-link">Services</a>
                     </li>
                     <li class="nav-item">
                         <a href="#questions" class="nav-link">Questions</a>
@@ -73,9 +61,13 @@
                     </button> -->
                 </div>
             </div>
-            <!-- <div class="ratio ratio-16x9" >
-                <video src="" controls autoplay muted></video>
-            </div> -->
+            <div class="main-video ratio ratio-16x9">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/1ZsV4gHYRoQ"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+            </div>
             <br>
         </div>
     </section>
@@ -94,10 +86,11 @@
         </div>
     </section> -->
 
-    <!-- Boxes -->
+    <!-- Services -->
     <section class="p-5">
         <div class="container">
             <div class="row text-center g-4">
+                <h2 id="services" class="text-center mb-4">Our Services</h2>
                 <div class="col-md">
                     <div class="card bg-dark text-light">
                         <div class="card-body text-center">
@@ -390,53 +383,16 @@
         </div>
     </section>
 
-    <!-- Contact -->
-    <!-- <section class="p-5">
-        <div class="card">
-            <div class="row g-4">
-                <div class="col-md">
-                    <h2 class=" contact-heading text-center mb-4">Contact</h2>
-                    <ul class="list-group list-group-flush lead">
-                        <li class="list-group-item">
-                            <p class="text-center">
-                                <a
-                                    href="https://www.google.com/maps/place/Grand+Frame+Inc/@42.0791792,-87.9824766,17z/data=!3m1!4b1!4m5!3m4!1s0x880fba8d225fa8e1:0x6f2c17f267200639!8m2!3d42.0791792!4d-87.9802879">209
-                                    S. Arlington Heights Rd.
-                                    Arlington Heights, IL 60005
-                                </a>
-                            </p>
-
-                        </li>
-                        <li class="list-group-item text-center">
-                            <span class="fw-bold">847-253-9393</span>
-                        </li>
-                        <li class="list-group-item text-center">
-                            <span class="fw-bold">Hours</span>
-                            <br>
-                            Mon - Fri: 10 AM - 5 PM
-                            <br>
-                            Sat: 10 AM - 2 PM
-                            <br>
-                            Sunday: Closed
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section> -->
-
     <section class="p-5" id="contact">
         <div class="card bg-dark">
             <h2 class=" contact-heading text-center text-white">Contact</h2>
             <br>
             <div class="row">
-
                 <a class="text-center text-white" style="text-decoration: none; font-weight: 500; font-size: 20px;"
                     href="https://www.google.com/maps/place/Grand+Frame+Inc/@42.0791792,-87.9824766,17z/data=!3m1!4b1!4m5!3m4!1s0x880fba8d225fa8e1:0x6f2c17f267200639!8m2!3d42.0791792!4d-87.9802879">209
                     S. Arlington Heights Rd.<br>
                     Arlington Heights, IL 60005
                 </a>
-
             </div>
             <br>
             <div class="row">
@@ -451,12 +407,9 @@
                 <span class="text-center text-white" style="font-size: 18px;">Sat : 10 AM - 2 PM</span>
                 <br>
                 <span class="bottom-text text-center text-white" style="font-size: 18px;">Sun : <span
-                        class="text-danger">Closed</span></span>
-
+                        class="text-danger">Closed</span>
             </div>
-
         </div>
-
     </section>
 
     <!-- Footer -->
@@ -514,6 +467,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
         crossorigin="anonymous"></script>
+
 
 </body>
 
