@@ -2,16 +2,22 @@ body::before {
     display: block;
     content: '';
     height: 60px;
-  }
-  
-  @media (min-width: 768px) {
-    .news-input {
-      width: 50%;
-    }
 }
+  
+  
 
 body {
     /* font-family: 'Times New Roman', Times, serif; */
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    border-bottom: goldenrod double;
+}
+
+.nav-link:hover {
+    border-bottom: goldenrod double;
 }
 
 .card {
@@ -45,17 +51,12 @@ body {
     padding: 20px;
 }
 
-.title {
-    /* font-family: 'Poiret One', cursive; */
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 44px;
-}
-
 .main-video {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 20px;
+    margin: auto;
+   
 }
 
 .contact-heading {
@@ -63,11 +64,19 @@ body {
     font-size: 32px;
 }
 
+/* #map {
+    height: 400px;
+    width: 100%;
+} */
+
 .bottom-text {
     margin-bottom: 20px;
 }
 
 @media (max-width: 428px) {
+    h2 {
+        font-size: 34px;
+    }
     .title {
         font-size: 28px;
     }
